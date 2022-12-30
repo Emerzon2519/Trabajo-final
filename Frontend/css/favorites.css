@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    height: 90vh;
+    background: rgba(1, 36, 66, 0.939);
+}
+header{
+    width: 100%;
+    height: 90px;
+    background: #1880BA;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    gap:35rem;
+    padding: 2.8% 0% 0% 3%;
+    position:fixed;
+}
+.link-container{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+}
+.link-container a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+.link-container a:hover{
+    color: #f1c00b;
+}
+.user-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.user-container a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+}
+.user-container a:hover{
+    color: #f1c00b;
+}
+.user-container p{
+    color: aliceblue;
+    font-size: 12px;
+}
+main{
+    height: 100%;
+    background-image: url("../img/bannerPoke.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.body-main-container{
+    background: #f7f7f71f;
+    height: 100%;
+    width: 100%;
+}
+h2{
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+#card-container{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 10px 0px 10px;
+}
+#card-container-pokemon{
+    height: 300px;
+    width: 300px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 10px;
+}
+#card-container-pokemon img{
+    height: 250px;
+    width: 200px;
+}
+#dataInformation{
+    height: 600px;
+    width: 300px;
+    background: #f1c00b;
+    padding: 5px 5px 5px 6px;
+}
+#dataInformation p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#btn-delete{
+    width: 50%;
+    padding: 4%;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: #2c2b2b;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#btn-delete:hover{
+    background: #444343;
+}

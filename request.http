@@ -1,0 +1,41 @@
+###
+POST http://localhost:8000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Juan Perez quispe",
+    "email": "the_emerzon1999@hotmail.com",
+    "usuario": "Juancito",
+    "contraseña":"Juan",
+    "pokemones":["charmandel","charizard","pikachu","charmander"]
+}
+
+###
+GET http://localhost:8000/api/users HTTP/1.1
+
+###
+GET http://localhost:8000/api/users/63adfbd6a8ea74f0266af85b HTTP/1.1
+
+###
+PUT http://localhost:8000/api/users/63adfbd6a8ea74f0266af85b HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Emerson Chacon",
+    "email": "the_emerzon1999@hotmail.com",
+    "usuario": "Emerzon2519",
+    "contraseña":"Emerzon25",
+    "pokemones":["charizard","metapod"]
+}
+
+###
+PUT http://localhost:8000/api/users/63adfbd6a8ea74f0266af85b HTTP/1.1
+Content-Type: application/json
+
+{
+    "pokemones":"pika"
+}
+
+
+###
+DELETE  http://localhost:8000/api/users/63adfe7c2d4530af3a440d2a HTTP/1.1

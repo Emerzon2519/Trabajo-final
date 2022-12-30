@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/pokeIcon.png">
+    <meta name="description" content="Curso de Desarrollo Web con HTML, CSS y JS"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font words -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- Font icons -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <!-- styles -->
+    <link type="text/css" rel="stylesheet" href="./css/list-pokemons.css">
+    <title>Favorios</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- navigation -->
+            <ul class="link-container">
+                <li><a href="listPokemons.html">Lista de Pokemons</a></li>
+                <li><a href="favorites.html">Lista de Favoritos</a></li>
+                <li><a href="profile.html">Perfil</a></li>
+            </ul>
+            <!-- userIcon -->
+            <ul class="user-container">
+                <li><a href="profile.html"><i class="fi fi-sr-user"></i></a></li>
+                <p>nameUser</p>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="pokemon-container">
+            <section>
+                <select id="pokemon-select">
+                    <option value="" id="option-container">Selecciona un Pokémon</option>
+                </select>
+                <h2 id="pokemon-name"></h2>
+                <img id="pokemon-image" width="300px">
+            </section>
+            <section class="btn-container">
+                <input type="button" value="Añadir pokemon favorito" id="btn-add">
+            </section>
+        </article>
+    </main>
+</body>
+</html>
+<script src="./js/listpokemon.js"></script>

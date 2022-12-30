@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/pokeIcon.png">
+    <meta name="description" content="Curso de Desarrollo Web con HTML, CSS y JS"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- estilo de letra -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+    <!-- estilos de sign up -->
+    <link type="text/css" rel="stylesheet" href="./css/signUp.css">
+    <title>sign up</title>
+</head>
+<body>
+    <main>
+        <article class="box-container">
+            <img src="img/International_Pokémon_logo.svg.png" alt="" class="img1">
+            <p class="title1">Bienvenido a PokemonGames!</p>
+            <img src="img/Pikachu.png" alt="" class="img2">
+        </article>
+        <article class="form-container">
+            <form>
+                <h2>Registrate</h2>
+                <label for="txtNombre">Ingrese nombre</label>
+                <input type="text" name="txtNombre" id="nombre">
+                <label for="email">Ingrese Correo</label>
+                <input type="email" name="email" id="correo">
+                <label for="txtUser">Ingrese un nombre de Usuario</label>
+                <input type="text" name="txtUser" id="usuario">
+                <label for="txtPassword">Ingrese una Contraseña</label>
+                <input type="password" name="txtPassword" id="contraseña">
+                <label for="txtPasswordRepeat">Repetir contraseña</label>
+                <input type="password" name="txtPasswordRepeat" >
+                <article>
+                    <button type="submit" id="boton">Registrarse</button>
+                    <span><a href="login.html">ya tengo una cuenta</a></span>
+                </article>
+            </form>
+        </article>
+    </main>
+</body>
+</html>
+<script src="./js/sign-up.js"></script>

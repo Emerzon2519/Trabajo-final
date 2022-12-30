@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/pokeIcon.png">
+    <meta name="description" content="Curso de Desarrollo Web con HTML, CSS y JS"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font words -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- Font icons -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <!-- styles -->
+    <link type="text/css" rel="stylesheet" href="css/profile.css">
+    <title>Favorios</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- navigation -->
+            <ul class="link-container">
+                <li><a href="listPokemons.html">Lista de Pokemons</a></li>
+                <li><a href="favorites.html">Lista de Favoritos</a></li>
+                <li><a href="profile.html">Perfil</a></li>
+            </ul>
+            <!-- userIcon -->
+            <ul class="user-container">
+                <li><a href="profile.html"><i class="fi fi-sr-user"></i></a></li>
+                <p id="nameUser">nameUser </p>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="body-main-container">
+            <h1>Perfil de Usuario</h1>
+            <article class="userProfile-container">
+                <form action="">
+                    <!-- container1 -->
+                    <article class="input-container">
+                        <article class="name-input">
+                            <label for="txtName">Nombre Completo:</label>
+                            <input type="text" name="txtName" id="nombre" disabled="">
+                        </article>
+                    </article>
+                    <!-- container 2 -->
+                    <article class="input-container">
+                        <article class="user-input">
+                            <label for="txtUser">Usuario:</label>
+                            <input type="text" name="txtUser" id="usuario" disabled="">
+                        </article>
+                        <article class="email-input">
+                            <label for="txtEmail">Correo:</label>
+                            <input type="email" name="txtEmail" id="email" disabled="">
+                        </article>
+                    </article>
+                    <!-- button container -->
+                    <article class="btn-container">
+                        <input type="button" value="Editar" id="btn-editar" >
+                        <input type="button" value="Guardar" id="btn-guardar" disabled="">
+                        <input type="button" value="Eliminar" id="btn-eliminar">
+                    </article>
+                </form>
+            </article>
+        </article>
+    </main>
+</body>
+</html>
+<script src="./js/profile.js"></script>
